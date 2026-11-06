@@ -1,0 +1,24 @@
+{
+  "name": "claude-skills",
+  "description": "Sergio's personal Claude skills marketplace for Claude Code and claude.ai",
+  "owner": {
+    "name": "Zelek1118"
+  },
+  "plugins": [
+    {
+      "name": "taste-skill",
+      "description": "tasteskill (Leonxlnx/taste-skill): professional company websites, checked in a real browser. Pulled from the author's repo.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Leonxlnx/taste-skill.git",
+        "path": "skills/taste-skill"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ],
+      "homepage": "https://github.com/Leonxlnx/taste-skill",
+      "license": "MIT"
+    }
+  ]
+}
